@@ -11,9 +11,7 @@ plugins:
 
 # ==== 社交链接（minima 主题的特殊要求） ====
 author:
-  name: "Pocaster"                         # 显示在页脚的名字
-  email: helloandone@gmail.com / wsq@inevitable-event.com                 # 可选
-  github: "thedeathsheep"             # 直接填写 GitHub 用户名
+  email: helloandone@gmail.com                 # 可选
 
 # ==== 导航栏 ==== 
 # 创建 _data/navigation.yml 文件定义导航栏（minima 主题要求）
