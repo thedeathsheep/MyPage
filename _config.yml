@@ -1,6 +1,6 @@
 # ↓↓↓ 必须开头！避免解释器误判
 title: "Inevitable-Event"
-description: "Wang \n 游戏开发者 | C++ for Game、AI Agent、叙事艺术"
+description: "游戏开发者 | C++ for Game、AI Agent、叙事艺术"
 url: "https://inevitable-event.com/"  # 替换为你的 GitHub Pages 域名
 baseurl: ""  # 保持空（若仓库名不是 username.github.io，需填仓库名如 "/repo-name"）
 
