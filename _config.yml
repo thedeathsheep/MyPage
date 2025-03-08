@@ -1,5 +1,5 @@
 # Jekyll 配置
-title: "我的个人主页"  # 网站标题
+title: "测试V1"  # 网站标题
 description: "欢迎来到我的个人主页，这里记录了我的学习、工作和生活。"  # 网站描述
 url: "https://yourdomain.com"  # 你的网站域名
 baseurl: ""  # 如果你的网站不在根目录，可以设置子目录路径
