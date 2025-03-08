@@ -8,7 +8,7 @@ sitemap: false  # 避免某些 SEO 插件重复抓取
 
 ---
 
-## ✨ 文章列表
+### ✨ 文章列表
 
 <div class="project-grid">
   {% for project in site.data.projects %}
