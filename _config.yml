@@ -1,5 +1,5 @@
 # ↓↓↓ 必须开头！避免解释器误判
-title: "Inevitable-Event"
+title: "Inevitable-Event / Pocaster"
 description: "游戏开发者 | C++ for Game、AI Agent、叙事艺术"
 url: "https://inevitable-event.com/"  # 替换为你的 GitHub Pages 域名
 baseurl: ""  # 保持空（若仓库名不是 username.github.io，需填仓库名如 "/repo-name"）
@@ -12,7 +12,7 @@ plugins:
 # ==== 社交链接（minima 主题的特殊要求） ====
 author:
   email: helloandone@gmail.com                 # 可选
-
+  
 # ==== 导航栏 ==== 
 # 创建 _data/navigation.yml 文件定义导航栏（minima 主题要求）
 # 在项目根目录新建文件夹 _data → 新建 navigation.yml，内容如下：
