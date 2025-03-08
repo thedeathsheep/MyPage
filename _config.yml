@@ -1,7 +1,7 @@
 # ↓↓↓ 必须开头！避免解释器误判
-title: "Your Name"
-description: "My Portfolio"
-url: "https://yourusername.github.io"  # 替换为你的 GitHub Pages 域名
+title: "Inevitable-Event"
+description: "游戏开发者 | C++ for Game、AI Agent、叙事艺术"
+url: "https://inevitable-event.com/"  # 替换为你的 GitHub Pages 域名
 baseurl: ""  # 保持空（若仓库名不是 username.github.io，需填仓库名如 "/repo-name"）
 
 # ==== GitHub Pages 主题 ====
@@ -11,11 +11,9 @@ plugins:
 
 # ==== 社交链接（minima 主题的特殊要求） ====
 author:
-  name: "Your Name"                         # 显示在页脚的名字
-  email: your.email@example.com             # 可选
-  github: your-github-username              # 直接填写 GitHub 用户名
-  twitter: your-twitter-handle              # 直接填写 Twitter 用户名
-  linkedin: your-linkedin-id                # 填写个人页的 ID（如 "in/johndoe/"）
+  name: "Pocaster"                         # 显示在页脚的名字
+  email: helloandone@gmail.com / wsq@inevitable-event.com                 # 可选
+  github: "thedeathsheep"             # 直接填写 GitHub 用户名
 
 # ==== 导航栏 ==== 
 # 创建 _data/navigation.yml 文件定义导航栏（minima 主题要求）
