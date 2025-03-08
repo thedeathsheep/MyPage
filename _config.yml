@@ -18,7 +18,8 @@ author:
 # 在项目根目录新建文件夹 _data → 新建 navigation.yml，内容如下：
 #
 # - name: Home
-#   link: /
+#   link: /.
+.
 # - name: Blog
 #   link: /blog/
 # - name: About
