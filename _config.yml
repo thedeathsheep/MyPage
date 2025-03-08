@@ -1,43 +1,40 @@
-# ========== 基础配置 ==========
-title: "V3"      # 网站标题
-description: "我的技术博客与项目集"  # 网站描述
-url: "https://yourusername.github.io"  # GitHub Pages 域名
-baseurl: ""                      # 如果项目在仓库子目录（如 `/blog`），此处需填写
+# ↓↓↓ 必须开头！避免解释器误判
+title: "Your Name"
+description: "My Portfolio"
+url: "https://yourusername.github.io"  # 替换为你的 GitHub Pages 域名
+baseurl: ""  # 保持空（若仓库名不是 username.github.io，需填仓库名如 "/repo-name"）
 
-# ========== 作者信息（minima 主题专用格式） ========== 
-author:
-  name: "你的名字"
-  email: "your.email@example.com"
-  # minima 主题会通过以下字段自动生成社交链接
-  github: your-github-username    # 直接填用户名（不要带URL）
-  twitter: your-twitter-handle    # 同上
-  linkedin: your-linkedin-id      # 同上（填LinkedIn ID，非完整URL）
-
-
-# ========== GitHub Pages 必需配置 ========== 
-theme: minima                     # GitHub Pages 默认支持的主题
+# ==== GitHub Pages 主题 ====
+remote_theme: jekyll/minima                # 强制使用 GitHub 官方维护的主题（关键）
 plugins:
-  - jekyll-feed                   # 允许生成 RSS
-remote_theme: pages-themes/minima # 防止本地与 GitHub 环境冲突（二选一）
-# 注意：如果用 `remote_theme`，则需要删除本地的 `theme: minima`
+  - jekyll-feed                             # 允许多平台订阅（GitHub 白名单插件）
 
+# ==== 社交链接（minima 主题的特殊要求） ====
+author:
+  name: "Your Name"                         # 显示在页脚的名字
+  email: your.email@example.com             # 可选
+  github: your-github-username              # 直接填写 GitHub 用户名
+  twitter: your-twitter-handle              # 直接填写 Twitter 用户名
+  linkedin: your-linkedin-id                # 填写个人页的 ID（如 "in/johndoe/"）
 
-# ========== 导航栏（minima 主题默认路径） ========== 
-# 默认导航栏路径为：_data/navigation.yml
-# (可选) 直接在 _config.yml 中定义：
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-      nav_order: 1  # 导航栏顺序
+# ==== 导航栏 ==== 
+# 创建 _data/navigation.yml 文件定义导航栏（minima 主题要求）
+# 在项目根目录新建文件夹 _data → 新建 navigation.yml，内容如下：
+#
+# - name: Home
+#   link: /
+# - name: Blog
+#   link: /blog/
+# - name: About
+#   link: /about/
 
-
-# ========== 其他配置 ========== 
+# ==== 其他必要配置 ====
 markdown: kramdown
 highlighter: rouge
+timezone: Asia/Shanghai                     # 根据时区调整
+
 exclude:
+  - .gitignore
   - Gemfile
   - Gemfile.lock
   - README.md
