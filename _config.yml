@@ -1,5 +1,5 @@
 # ========== 基础配置 ==========
-title: "测试V2"      # 网站标题
+title: "V3"      # 网站标题
 description: "我的技术博客与项目集"  # 网站描述
 url: "https://yourusername.github.io"  # GitHub Pages 域名
 baseurl: ""                      # 如果项目在仓库子目录（如 `/blog`），此处需填写
